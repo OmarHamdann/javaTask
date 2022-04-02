@@ -16,6 +16,6 @@ public class DemoApplication {
 
 	@GetMapping
 	public String hello() {
-		return "hi ";
+		return "Go to { http://localhost:8080/user} to get all user data";
 	}
 }
