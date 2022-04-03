@@ -32,4 +32,10 @@ public class UserService {
         return usersList.stream().filter(user -> user.getId().equals(id)).findFirst().get();
     }
 
+    public User createUser(User user){
+//        usersList.add(new User("77", "nono", "gg", UserType.CUSTOMER, 55.5));
+        usersList.add(user);
+        return user;
+    }
+
 }
